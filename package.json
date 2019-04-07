@@ -34,17 +34,18 @@
     "url-loader": "^1.1.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1"
+    "webpack-dev-server": "^3.2.1",
+    "webpack-node-externals": "^1.7.2"
   },
   "scripts": {
     "winbuild": "set NODE_ENV=production&&webpack",
     "winserver": "set NODE_ENV=development&&webpack-dev-server",
     "windev": "set NODE_ENV=development&&webpack",
-    "windll":"set NODE_ENV=production&&webpack --config webpack.dll.config.js",
+    "windll": "set NODE_ENV=production&&webpack --config webpack.dll.config.js",
     "build": "NODE_ENV=production webpack",
     "server": "NODE_ENV=development webpack-dev-server",
     "dev": "NODE_ENV=development webpack",
-    "dll":"NODE_ENV=production webpack --config webpack.dll.config.js"
+    "dll": "NODE_ENV=production webpack --config webpack.dll.config.js"
   },
   "author": "snowleo",
   "license": "ISC"
