@@ -1,7 +1,11 @@
 # my-webapck
-前端开发中常用的webpack配置；
+个人在前端开发中常用的webpack配置；
 
 webpack版本4.29.6
+
+webpack.dll.config.js为动态链接库打包配置；
+
+webpack.module.config.js为打包npm模块时使用的配置（在package的json中并无配置该项的命令）；
 
 # 区分生产和开发环境
 通过读取process.env.NODE_ENV来判断当前的开发环境；
